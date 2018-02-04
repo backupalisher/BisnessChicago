@@ -1,0 +1,676 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.user.appchicago.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/button"
+            android:layout_margin="5dp"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:background="@drawable/logo7" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:text="@string/chicago"
+            android:textAlignment="center" />
+
+    </LinearLayout>
+
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:scrollbars="none">
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/imageButton"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            app:srcCompat="@drawable/gruzoperevizki" />
+
+                        <TextView
+                            android:id="@+id/multiAutoCompleteTextView"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="-5dp"
+                            android:text="Авто-Мото"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/darker_gray"
+                            android:textSize="10sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="10dp"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/imageButton2"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            app:srcCompat="@drawable/car" />
+
+                        <TextView
+                            android:id="@+id/multiAutoCompleteTextView2"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="-5dp"
+                            android:text="Бытовые услуги"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/darker_gray"
+                            android:textSize="10sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/imageButton3"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            app:srcCompat="@drawable/vse_dlya_doma" />
+
+                        <TextView
+                            android:id="@+id/multiAutoCompleteTextView3"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="-5dp"
+                            android:text="Все для дома"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/darker_gray"
+                            android:textSize="10sp" />
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/imageButton4"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            app:srcCompat="@drawable/gruzoperevizki" />
+
+                        <TextView
+                            android:id="@+id/multiAutoCompleteTextView4"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="-5dp"
+                            android:text="Грузоперевозки"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/darker_gray"
+                            android:textSize="10sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="10dp"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/imageButton5"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            app:srcCompat="@drawable/car" />
+
+                        <TextView
+                            android:id="@+id/multiAutoCompleteTextView5"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="-5dp"
+                            android:text="Здоровье и Медицина"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/darker_gray"
+                            android:textSize="10sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/imageButton6"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            app:srcCompat="@drawable/vse_dlya_doma" />
+
+                        <TextView
+                            android:id="@+id/multiAutoCompleteTextView6"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="-5dp"
+                            android:text="Интернет и ТВ провайдеры"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/darker_gray"
+                            android:textSize="10sp" />
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/imageButton7"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            app:srcCompat="@drawable/gruzoperevizki" />
+
+                        <TextView
+                            android:id="@+id/multiAutoCompleteTextView7"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="-5dp"
+                            android:text="Искусство и Развлечения"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/darker_gray"
+                            android:textSize="10sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="10dp"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/imageButton8"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            app:srcCompat="@drawable/car" />
+
+                        <TextView
+                            android:id="@+id/multiAutoCompleteTextView8"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="-5dp"
+                            android:text="Компьютеры и сайты"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/darker_gray"
+                            android:textSize="10sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/imageButton9"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            app:srcCompat="@drawable/vse_dlya_doma" />
+
+                        <TextView
+                            android:id="@+id/multiAutoCompleteTextView9"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="-5dp"
+                            android:text="Красота и уход"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/darker_gray"
+                            android:textSize="10sp" />
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/imageButton10"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            app:srcCompat="@drawable/gruzoperevizki" />
+
+                        <TextView
+                            android:id="@+id/multiAutoCompleteTextView10"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="-5dp"
+                            android:text="Магазины"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/darker_gray"
+                            android:textSize="10sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="10dp"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/imageButton11"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            app:srcCompat="@drawable/car" />
+
+                        <TextView
+                            android:id="@+id/multiAutoCompleteTextView11"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="-5dp"
+                            android:text="Недвижимость"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/darker_gray"
+                            android:textSize="10sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/imageButton12"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            app:srcCompat="@drawable/vse_dlya_doma" />
+
+                        <TextView
+                            android:id="@+id/multiAutoCompleteTextView12"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="-5dp"
+                            android:text="Обучение"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/darker_gray"
+                            android:textSize="10sp" />
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/imageButton13"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            app:srcCompat="@drawable/gruzoperevizki" />
+
+                        <TextView
+                            android:id="@+id/multiAutoCompleteTextView13"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="-5dp"
+                            android:text="Общественные организации"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/darker_gray"
+                            android:textSize="10sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="10dp"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/imageButton14"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            app:srcCompat="@drawable/car" />
+
+                        <TextView
+                            android:id="@+id/multiAutoCompleteTextView14"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="-5dp"
+                            android:text="Отдых"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/darker_gray"
+                            android:textSize="10sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/imageButton15"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            app:srcCompat="@drawable/vse_dlya_doma" />
+
+                        <TextView
+                            android:id="@+id/multiAutoCompleteTextView15"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="-5dp"
+                            android:text="Оформление/перевод документов"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/darker_gray"
+                            android:textSize="10sp" />
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/imageButton16"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            app:srcCompat="@drawable/gruzoperevizki" />
+
+                        <TextView
+                            android:id="@+id/multiAutoCompleteTextView16"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="-5dp"
+                            android:text="Продукты"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/darker_gray"
+                            android:textSize="10sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="10dp"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/imageButton17"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            app:srcCompat="@drawable/car" />
+
+                        <TextView
+                            android:id="@+id/multiAutoCompleteTextView17"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="-5dp"
+                            android:text="Путешествия"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/darker_gray"
+                            android:textSize="10sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/imageButton18"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            app:srcCompat="@drawable/vse_dlya_doma" />
+
+                        <TextView
+                            android:id="@+id/multiAutoCompleteTextView18"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="-5dp"
+                            android:text="Рестораны"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/darker_gray"
+                            android:textSize="10sp" />
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/imageButton19"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            app:srcCompat="@drawable/gruzoperevizki" />
+
+                        <TextView
+                            android:id="@+id/multiAutoCompleteTextView19"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="-5dp"
+                            android:text="Страхование"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/darker_gray"
+                            android:textSize="10sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="10dp"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/imageButton20"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            app:srcCompat="@drawable/car" />
+
+                        <TextView
+                            android:id="@+id/multiAutoCompleteTextView20"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="-5dp"
+                            android:text="Товары и услуги для животных"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/darker_gray"
+                            android:textSize="10sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/imageButton21"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            app:srcCompat="@drawable/vse_dlya_doma" />
+
+                        <TextView
+                            android:id="@+id/multiAutoCompleteTextView21"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="-5dp"
+                            android:text="Требуются"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/darker_gray"
+                            android:textSize="10sp" />
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/imageButton22"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            app:srcCompat="@drawable/gruzoperevizki" />
+
+                        <TextView
+                            android:id="@+id/multiAutoCompleteTextView22"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="-5dp"
+                            android:text="Требуются водители траков"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/darker_gray"
+                            android:textSize="10sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="10dp"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/imageButton23"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            app:srcCompat="@drawable/car" />
+
+                        <TextView
+                            android:id="@+id/multiAutoCompleteTextView23"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="-5dp"
+                            android:text="Финансы"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/darker_gray"
+                            android:textSize="10sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/imageButton24"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            app:srcCompat="@drawable/vse_dlya_doma" />
+
+                        <TextView
+                            android:id="@+id/multiAutoCompleteTextView24"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="-5dp"
+                            android:text="Экстрасенсы, астрологи"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/darker_gray"
+                            android:textSize="10sp" />
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/imageButton25"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            app:srcCompat="@drawable/gruzoperevizki" />
+
+                        <TextView
+                            android:id="@+id/multiAutoCompleteTextView25"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="-5dp"
+                            android:text="Юристы, адвокаты"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/darker_gray"
+                            android:textSize="10sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="10dp"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/imageButton26"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            app:srcCompat="@drawable/car" />
+
+                        <TextView
+                            android:id="@+id/multiAutoCompleteTextView26"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="-5dp"
+                            android:text="Яхты"
+                            android:textAlignment="center"
+                            android:textColor="@android:color/darker_gray"
+                            android:textSize="10sp" />
+                    </LinearLayout>
+                </TableRow>
+            </TableLayout>
+
+        </ScrollView>
+
+
+</LinearLayout>
